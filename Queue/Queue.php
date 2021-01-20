@@ -11,8 +11,7 @@ class Queue extends BaseApi
      */
     public function work()
     {
-        echo $baseDir;
-        die();
+
     }
 
     /**
