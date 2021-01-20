@@ -1,0 +1,21 @@
+{
+    "name": "phpwdk/queue",
+    "description": "任务插件",
+    "authors": [
+        {
+            "name": "汪登科",
+            "email": "9653992@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "classmap": [
+            "Queue.php"
+        ],
+        "psr-4": {
+            "Queue\\": "Queue/"
+        }
+    }
+}
